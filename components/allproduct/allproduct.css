@@ -1,0 +1,29 @@
+.all-product {
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+    gap: 200px;
+    text-align: center;
+}
+
+.all-product img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.all-product img:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.product-name {
+    font-family: Arial, sans-serif; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.all-des {
+    font-family: Arial, sans-serif;
+    color: #666;
+    font-size: 1em;
+}

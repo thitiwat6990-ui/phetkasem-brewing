@@ -1,0 +1,73 @@
+.image-bg {
+    position: absolute;    
+}
+
+.image-bg::before {
+    content: ''; 
+    position: absolute;
+    top: 320;
+    left: 20px;
+    width: 97%;
+    height: 460px;
+    border: 2px solid rgb(255, 255, 255); 
+    transform: scale(1); 
+    transform-origin: center center;
+    z-index: 2; 
+    pointer-events: none; 
+    margin-top:-300px;
+
+}
+
+.culture {
+    font-weight: 900;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Arial, sans-serif; 
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.description {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.button-container{
+    display: inline-block;
+    padding: 15px 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #000000;
+    background-color: orange; 
+    transition: all 0.3s ease-in-out;border: 3px solid #ff9900; 
+    margin-left: 600px;
+    margin-top: 33.8px;
+    z-index: 23;
+}
+
+.button-container::before {
+    content: ''; 
+    position: absolute;
+    top: 320;
+    left: 590px;
+    width: 167px;
+    height: 69.9px;
+    border: 2px solid rgb(255, 255, 255); 
+    transform: scale(1); 
+    transform-origin: center center;
+    z-index: 10; 
+    pointer-events:painted; 
+    margin-top:-29.8px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.button-container:hover::before {
+    transform: scale(0.9);
+}
+
+

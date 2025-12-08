@@ -1,0 +1,5 @@
+.app-container {
+  display: flex;
+  flex-direction: column; /* จัดเรียง Main และ Footer ในแนวตั้ง */
+  min-height: 100vh; /* **สำคัญ:** ทำให้ Container สูงอย่างน้อยเต็ม Viewport */
+}

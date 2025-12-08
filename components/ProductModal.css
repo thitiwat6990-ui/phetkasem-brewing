@@ -1,0 +1,55 @@
+/* src/app/products/components/productmodal.css */
+
+/* A. Modal Overlay (พื้นหลังมืด) */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* B. Modal Content (กล่องหลัก) */
+.modal-content {
+  background: rgb(225, 222, 222);
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+  position: relative;
+}
+
+/* C. Layout ซ้าย-ขวา */
+.modal-body {
+  display: flex;
+  gap: 40px; /* ช่องว่างระหว่างรูปภาพและรายละเอียด */
+}
+
+.image-column {
+  flex: 1; /* รูปภาพกินพื้นที่ 1 ส่วน */
+}
+
+.details-column {
+  flex: 2; /* รายละเอียดกินพื้นที่ 2 ส่วน */
+}
+
+.image-column img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: none;
+  font-size: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.main-header .manu-grop li a {
+    transition: color 0.3s ease;
+}
+
+.main-header li a:hover {
+    color: rgb(117, 117, 117);
+}
+
+.main-header .manu-group li a:hover {
+    color: rgb(117, 117, 117);
+}
+
+
+

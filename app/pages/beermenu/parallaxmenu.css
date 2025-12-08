@@ -1,0 +1,168 @@
+.beer-menu {
+    font-size: 2.5rem;
+    font-weight: 900;
+    position: relative;
+    text-align: center;
+    z-index: 3;
+    margin-top: 0px;
+    color:palevioletred;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+
+}
+
+.pks-brewery {
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+    z-index: 3;
+    margin-top: 200px;
+    color: rgb(95, 95, 95);
+    
+}
+
+.bg-menu {
+    width: 100%;
+    height: 1800px;
+    margin-top: 500px;
+    z-index: -3;
+}
+
+.product12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-content: center;
+    margin-top:-1500px;
+    gap:0px;
+    padding-left: 150px;
+    transition: transform 0.4s ease-in-out;
+    transform: scale(1);
+}
+
+.All-product {
+
+}
+
+.All-product img:hover {
+    transform: scale(1.1);
+}
+
+.des-beer {
+    font-family: Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap:600px;
+    margin-left: 100px;
+    margin-top: -240px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+.rorkermenu {
+    color: rgb(255, 202, 105);
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+         letter-spacing: 2px; 
+}
+
+.singsepmenu {
+    color: rgb(35, 10, 10);
+    text-shadow: 
+        -1px -1px 0 #ffffff,  
+         1px -1px 0 #ffffff,
+        -1px  1px 0 #ffffff,
+         1px  1px 0 #ffffff;
+         letter-spacing: 1px; 
+}
+
+.beer-description {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: left;
+    z-index: 3;
+    margin-top: 200px;
+    color: rgb(95, 95, 95);
+    gap: 350px;
+    margin-left: 280px;
+    margin-top:5;
+}
+
+.product34 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-content: center;
+    margin-top:200px;
+    gap:0px;
+    padding-left: 150px;
+    transition: transform 0.4s ease-in-out;
+    transform: scale(1);
+}
+
+.cocowave {
+    color: rgb(255, 255, 255);
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+         letter-spacing: 2px; 
+    
+}
+
+.razz {
+    color: palevioletred;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+         letter-spacing: 2px; 
+    
+}
+
+.des-product {
+    font-family: Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap:440px;
+    margin-left: 57px;
+    margin-top: -240px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.beer-description2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: left;
+    z-index: 3;
+    margin-top: 200px;
+    color: rgb(95, 95, 95);
+    gap: 300px;
+    margin-left: 230px;
+    margin-top:5;
+}
+
+.bluefeez {
+    color: rgb(16, 195, 255);
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+         letter-spacing: 2px; 
+       
+}
