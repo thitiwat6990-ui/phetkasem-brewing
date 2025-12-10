@@ -1,0 +1,27 @@
+.beer-menu {
+    font-size: 3rem;
+    font-weight: 900;
+    position: relative;
+    text-align: center;
+    z-index: 3;
+    color:rgb(213, 213, 213);
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+
+}
+
+.pks-brewery {
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+    z-index: 3;
+    margin-top: 00px;
+    margin-top:0px;
+    
+}
+
+
+

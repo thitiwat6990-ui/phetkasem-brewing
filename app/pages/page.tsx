@@ -1,5 +1,5 @@
 import Beermenu from "./beermenu/page";
-
+import Meettheteam from "./team/page";
 
 
 export default function AllPage() {
@@ -7,6 +7,7 @@ export default function AllPage() {
         <>
         <div>
             <Beermenu/>
+    
         </div>
         </>
     )

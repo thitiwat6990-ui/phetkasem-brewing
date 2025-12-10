@@ -1,0 +1,16 @@
+/* .page {
+    background-color: rgb(237, 237, 237);
+    position: relative;
+    z-index: -10;
+    height: 10000vh;
+} */
+
+.product-can {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    
+}
+
+

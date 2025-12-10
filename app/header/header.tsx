@@ -47,7 +47,7 @@ export default function HeaderPage() {
                     <a href="/pages/beermenu">PRODUCT MENU</a>
                   </li>
                   <li>
-                    <a href="#">MEET THE TEAM</a>
+                    <a href="/pages/team">MEET THE TEAM</a>
                   </li>
                   <li>
                     <a href="#">THE OWNER</a>
@@ -63,7 +63,7 @@ export default function HeaderPage() {
               <div className="dropdown-content">
                 <ul className="sub-menu">
                   <li>
-                    <a href="#">STANDARD</a>
+                    <a href="/gallery/standard">STANDARD</a>
                   </li>
                   <li>
                     <a href="#">GALLERY</a>
